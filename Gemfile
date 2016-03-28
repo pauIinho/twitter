@@ -9,9 +9,10 @@ gem 'jquery-rails', '4.0.3'
 gem 'turbolinks', '2.5.3'
 gem 'jbuilder', '2.2.13'
 gem 'sdoc', '0.4.1', group: :doc
+gem 'tzinfo-data'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.10'
+  gem 'sqlite3', '1.3.11'
   gem 'byebug', '4.0.5'
   gem 'web-console', '2.1.2'
   gem 'spring', '1.3.4'
